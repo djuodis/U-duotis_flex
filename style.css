@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+body {
+    background: linear-gradient(to right, #8e73c2, #5675b6 ) ;
+    font-family: sans-serif;
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px; 
+    background: fixed;
+    color: black;
+    flex-wrap:wrap ;    
+}
+
+h1 {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 32px;
+    text-shadow: 5px 5px 5px gray;
+   
+}
+
+span {
+    font-size: 62px;  
+    font-weight: 500;  
+    font-family:'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: yellow;
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 0;
+  }
+
+li {
+    margin-inline: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.container .cat, .container .dog, .container .fish {
+    border-radius: 3px;
+    padding-top: 30px ;
+    text-align: center;
+    width: 250px;
+    font-size: 32px;
+    background-color:#998fcc;
+}
+
+.container .cat p, .container .dog p, .container .fish p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+li.no-border {
+    margin-bottom: 20px;
+    border: 0;
+}
